@@ -1,8 +1,5 @@
 from langchain.chat_models import init_chat_model
-from langchain_chroma import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_core.tools import tool
-from langchain_core.messages import SystemMessage
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 
